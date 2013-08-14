@@ -2,3 +2,17 @@
 html, body {
     margin: 20px;
 }
+
+/* FauxSelectComponent */
+select.faux-select {
+    opacity: 0;
+    position: absolute;
+}
+.faux-select {
+    position: relative;
+}
+.faux-select-box {
+    position: absolute;
+}
+.faux-select-selected {}
+.faux-select-graphic {}

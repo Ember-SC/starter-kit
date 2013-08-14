@@ -17,3 +17,7 @@ App.IndexRoute = Ember.Route.extend({
     }
   }
 });
+
+App.FauxSelectComponent = Ember.Component.extend({
+  selected: 'Choose One'
+});
