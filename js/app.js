@@ -6,8 +6,14 @@ App.Router.map(function() {
 
 App.IndexRoute = Ember.Route.extend({
   model: function() {
-    return [
-      { choice: 'Choose One' }
-    ];
+    return {
+      name: 'one',
+      className: 'dropdown',
+      choices: [
+        { choice: 'Choose One' },
+        { choice: 'First' },
+        { choice: 'Last' }
+      ]
+    }
   }
 });
