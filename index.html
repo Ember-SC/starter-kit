@@ -26,7 +26,7 @@
       </div>
       <select {{bindAttr name=name class=":faux-select className"}}>
       {{#each choices}}
-        <option value="{{choice}}">{{choice}}</option>
+        <option {{bindAttr value=choice}}>{{choice}}</option>
       {{/each}}
       </select>
     </div>

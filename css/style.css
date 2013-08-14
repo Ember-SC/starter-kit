@@ -21,18 +21,20 @@ select.faux-select {
 }
 .faux-select-box {
     position: absolute;
+    min-width: 137px;
 }
 .faux-select-selected,
 .faux-select-graphic {
     background-image: linear-gradient(rgb(253, 250, 237), rgb(181, 203, 235));
     border: 1px solid black;
-    height: 18px;
+    height: 17px;
 }
 .faux-select-selected {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-right: none;
     float: left;
+    min-width: 117px;
     padding: 5px 10px;
 }
 .faux-select-graphic {

@@ -14,10 +14,13 @@ App.IndexRoute = Ember.Route.extend({
         { choice: 'First' },
         { choice: 'Last' }
       ]
-    }
+    };
   }
 });
 
 App.FauxSelectComponent = Ember.Component.extend({
-  selected: 'Choose One'
+  selected: 'Choose One',
+  change: function(e){
+    this.set('selected', e.target.value);
+  }
 });
